@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$(html,body).animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -99,7 +99,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="footer-grids1f2">
 						<h3>E-mail</h3>
 						<p><a href="mailto:info@example.com">helpertec.suporte@hotmail.com</a></p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.736292435531!2d-46.99225518255615!3d-22.05968089999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c817f2b1ac4897%3A0xb089b8985db68088!2sPaulispell%20Ind%C3%BAstria%20Paulista%20Pap%C3%A9is%20Embalagens!5e0!3m2!1spt-BR!2sbr!4v1652191321424!5m2!1spt-BR!2sbr" 
+						width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>	
 				</div>
 				<div class="col-md-8 w3layouts_mail_grid_right">
@@ -173,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script type="text/javascript">
 		$(document).ready(function() {
 				
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: easeOutQuart });
 								
 			});
 	</script>

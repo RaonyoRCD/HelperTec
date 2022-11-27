@@ -31,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			$("html,body").animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script> 
@@ -40,6 +40,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <![endif]-->
 </head>
 <body>
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
 	<!-- banner -->
 	<div class="banner-1">
 		<div class="w3-header-bottom">
@@ -107,75 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="text" name="rua"  placeholder="Rua" required="">
 							<input type="text" name="numero"  placeholder="Número" required="">
 							<input type="text" name="bairro"  placeholder="Bairro" required="">
-							<p> Selecione os tipos de materiais a serem coletados:</p>
-							<div>
-							<input type="checkbox" id="um" name="um" value="Computadores">
-							<label for="um">Computadores</label>
-							</div>
-							<div>
-							<input type="checkbox" id="dois" name="dois" value="Tablets">
-							<label for="dois">Tablets</label>
-						    </div>
-							<div>
-							<input type="checkbox" id="tres" name="tres" value="Monitores">
-							<label for="três">Monitores</label>
-							</div>
-							<div>
-							<input type="checkbox" id="quatro" name="quatro" value="Teclados">
-							<label for="quatro">Teclados</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="cinco" name="cinco" value="Impressoras">
-							<label for="cinco">Impressoras</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="seis" name="seis" value="Câmeras Fotográficas">
-							<label for="seis">Câmeras Fotográficas</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="sete" name="sete" value="Aparelhos de Som">
-							<label for="sete">Aparelhos de Som</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="oito" name="oito" value="Lâmpadas">
-							<label for="oito">Lâmpadas</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="nove" name="nove" value="Televisores">
-							<label for="nove">Televisores</label>
-							</div>
-							<div>
-							<input type="checkbox" id="dez" name="dez" value="Geladeiras">
-							<label for="dez">Geladeiras</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="onze" name="onze" value="Micro-ondas">
-							<label for="onze">Micro-ondas</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="doze" name="doze" value="Fogões">
-							<label for="doze">Fogões</label>
-							</div>
-							<div>
-							<input type="checkbox" id="treze" name="treze" value="Telefones e celulares">
-							<label for="treze">Telefones e celulares</label>
-							</div>	
-							<div>
-							<input type="checkbox" id="catorze" name="catorze" value="Carregadores">
-							<label for="catorze">Carregadores</label>
-							</div>
-							<div>
-							<input type="checkbox" id="quinze" name="quinze" value="Pilhas e baterias">
-							<label for="quinze">Pilhas e Baterias</label>
-							</div>
-							<div>
-							<input type="checkbox" id="dezesseis" name="dezesseis" value="Fios">
-							<label for="dezesseis">Fios</label>
-							</div>
-							<div>
-							<input type="checkbox" id="dezesete" name="dezesete" value="Outros">
-							<label for="dezesete">Outros</label>
-							</div>	
+							<input type="text" name="material"  placeholder="Tipo de Material a ser coletado" required="">
 							<input type="text" name="volume"  placeholder="Volume Estimado" required="">	
 							
 						</div>
@@ -219,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 					</ul>
 				</div>
@@ -244,7 +179,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script type="text/javascript">
 		$(document).ready(function() {
 				
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			$().UItoTop({ easingType: "easeOutQuart" });
 								
 			});
 	</script>

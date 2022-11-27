@@ -43,6 +43,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script> 
 </head>
 <body>
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
 	<!-- banner -->
 	<div class="banner">
 	<div class="agile_dot_info">
@@ -237,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Lixo eletrônico</h4>
 									<h5>O que é?</h5>
-									<p>O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de equipamento eletroeletrônico (REEE) ou simplesmente resíduo eletrônico. Os termos se referem a produtos elétricos ou eletrônicos que são descartados por não terem mais utilidade, ou seja, poderiam ser reciclados aos invés de destinados em um aterro sanitário. Você pode saber mais sobre o Lixo eletrônico <a href="https://www.todamateria.com.br/lixo-eletronico/">Clicando Aqui</a>.</p>
+									<p>O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de equipamento eletroeletrônico (REEE) ou simplesmente resíduo eletrônico. Os termos se referem a produtos elétricos ou eletrônicos que são descartados por não terem mais utilidade, ou seja, poderiam ser reciclados aos invés de destinados em um aterro sanitário. Você pode saber mais sobre o Lixo eletrônico <a href="https://www.todamateria.com.br/lixo-eletronico/"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -249,7 +252,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Qual é o impacto do lixo eletrônico no Brasil?</h4>
 									<h5>E o que isso afeta em crianças?</h5>
-									<p> Além dos impactos no planeta já mencionados logo acima; algumas doenças infantis também podem estar associadas ao lixo eletrônico. Esses aspectos incluem: alterações na função pulmonar, efeitos respiratórios, danos ao DNA, prejuízos à função da tireoide e aumento do risco de algumas doenças crônicas tardias, como câncer e doenças cardiovasculares. Você pode saber mais sobre este impacto que os resíduos eletrônicos possam agregar na saúde infantil <a href="https://www.bio.fiocruz.br/index.php/br/noticias/2453-oms-lixo-eletronico-afeta-saude-de-milhoes-de-criancas">Clicando Aqui</a>.</p>
+									<p> Além dos impactos no planeta já mencionados logo acima; algumas doenças infantis também podem estar associadas ao lixo eletrônico. Esses aspectos incluem: alterações na função pulmonar, efeitos respiratórios, danos ao DNA, prejuízos à função da tireoide e aumento do risco de algumas doenças crônicas tardias, como câncer e doenças cardiovasculares. Você pode saber mais sobre este impacto que os resíduos eletrônicos possam agregar na saúde infantil <a href="https://www.bio.fiocruz.br/index.php/br/noticias/2453-oms-lixo-eletronico-afeta-saude-de-milhoes-de-criancas"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -261,7 +264,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-9 testimonials-grid-2">
 									<h4>Como proceder caso possua algum resíduo eletrônico?</h4>
 									<h5>Qual a melhor maneira de "se livrar" disso?</h5>
-									<p>A melhor maneira de descartar estes materiais é levar o lixo eletrônico para pontos de coleta seletiva. Várias cidades no Brasil têm esses pontos de coleta, conhecidos como Ecopontos. Também existem os postos coletores, mercados e revendedores de produtos eletrônicos que aceitam estes materiais. Muitos destes descartes ainda podem ser reaproveitados através de pessoas especializadas no assunto. Quer saber mais sobre este assunto? Então veja sobre a Política Nacional de Resíduos Sólidos (PNRS) <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm">Clicando Aqui</a>.</p>
+									<p>A melhor maneira de descartar estes materiais é levar o lixo eletrônico para pontos de coleta seletiva. Várias cidades no Brasil têm esses pontos de coleta, conhecidos como Ecopontos. Também existem os postos coletores, mercados e revendedores de produtos eletrônicos que aceitam estes materiais. Muitos destes descartes ainda podem ser reaproveitados através de pessoas especializadas no assunto. Quer saber mais sobre este assunto? Então veja sobre a Política Nacional de Resíduos Sólidos (PNRS) <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm"target="_blank" rel="noopener noreferrer">Clicando Aqui</a>.</p>
 								</div>
 							</div>
 						</li>
@@ -290,9 +293,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador III.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
-				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.9649046331897!2d-46.776306999999996!3d-22.20344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zMjLCsDEyJzEyLjQiUyA0NsKwNDYnMzQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1654110271880!5m2!1spt-BR!2sbr" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				<div class="col-md-2 agile-footer-grid">
 					<h4>Linhas do (REEE)</h4>
 					<ul>
@@ -308,11 +311,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="solicitacao.php">Solicitar</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 					</ul>
-				</div>';
-				?>
+				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -322,7 +325,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 <div class="copy-right">
 	<div class="container">
-			<p> &copy; 2018 Travel . All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; 2022 HelperTec. Todos os direitos reservados. </p>
 	</div>
 </div>
 <!-- //footer -->
@@ -342,7 +345,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											  $('.events').append("<li>before event fired.</li>");
 											},
 											after: function () {
-											  $('.events').append("<li>after event fired.</li>");
+												$('.events').append("<li>before event fired.</li>");
 											}
 										  });
 									
@@ -400,7 +403,8 @@ $(function() {
 	  </div>
 	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 	  <script>
-		new window.VLibras.Widget('https://vlibras.gov.br/app');
+		new window.VLibras.Widget(https://vlibras.gov.br/app);
 	  </script>
 </body>	
-</html>
+</html>';
+?>

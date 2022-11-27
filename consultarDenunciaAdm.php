@@ -56,6 +56,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <![endif]-->
 </head>
 <body>
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
 	<!-- banner -->
 	<div class="banner-1">
 		<div class="w3-header-bottom">
@@ -108,7 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	echo'	<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Consulta de Solicitações<span>HelperTec - Relato Online</span></h2>
+			<h2 class="heading-agileinfo">Consulta de Solicitações<span>Consulte as solicitações aqui</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-8 w3layouts_mail_grid_right">';
 	
@@ -237,7 +240,7 @@ while($row=@mysql_fetch_object($result)) {
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador III.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 				
 				<div class="col-md-2 agile-footer-grid">
@@ -257,7 +260,7 @@ while($row=@mysql_fetch_object($result)) {
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="consultarDenunciaAdm.php">Solicitações</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
 					</ul>
@@ -296,7 +299,7 @@ while($row=@mysql_fetch_object($result)) {
   </div>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
-	new window.VLibras.Widget('https://vlibras.gov.br/app');
+	new window.VLibras.Widget(https://vlibras.gov.br/app);
   </script>
 </body>	
 </html>';

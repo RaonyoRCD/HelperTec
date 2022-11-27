@@ -40,6 +40,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <![endif]-->
 </head>
 <body>
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5519994176951" target="_blank">
+<i class="fa fa-whatsapp"></i>
+</a>
 	<!-- banner -->
 	<div class="banner-1">
 		<div class="w3-header-bottom">
@@ -65,10 +68,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="first-list"><a href="indexpessoal.php">Página Inicial</a></li>
 									<li><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Denúncias <b class="caret"></b></a>
+										<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Solicitações <b class="caret"></b></a>
 										<ul class="dropdown-menu">
-											<li><a class="active" href="areadedenuncia.php">Denunciar</a></li>
-											<li><a href="consulta.php">Consultar Denúncias</a></li>
+											<li><a class="active" href="areadedenuncia.php">Solicitar</a></li>
+											<li><a href="consulta.php">Consultar Solicitações</a></li>
 										</ul>
 									</li>
 									<li><a href="logout.php">Sair</a></li>
@@ -95,12 +98,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 		<div class="contact">
 		<div class="container">
-			<h2 class="heading-agileinfo">Denúncia<span>HelperTec - Denúncia Online</span></h2>
+			<h2 class="heading-agileinfo">Enviar Arquivo<span>Anexe aqui o seu arquivo</span></h2>
 			<div class="w3layouts_mail_grids">
 				<div class="col-md-4 w3layouts_mail_grid_left">
 					<div class="footer-grids1f2">
 						<h3>E-mail</h3>
-						<p>helper.suporte@hotmail.com</p>
+						<p><a href="mailto:info@example.com">helpertec.suporte@hotmail.com</a></p>
 					</div>	
 				</div>
 				<div class="col-md-8 w3layouts_mail_grid_right">
@@ -120,34 +123,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-<!-- footer -->
-
-
-
-
-
-
-
-	
-	
-	
-	
 	<div class="footer">
 		<div class="container">
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>Sobre nosso site</h4>
-					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador II.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
+					<p>Esse site foi desenvolvido por alunos da <a href="https://univesp.br"target="_blank" rel="noopener noreferrer">Univesp</a>, com a finalidade de projetar uma aplicação voltada para a matéria de Projeto Integrador III.<span>O mesmo fora desenvolvido sem nenhum fim lucrativo.</span></p>
 				</div>
 				
 				<div class="col-md-2 agile-footer-grid">
@@ -167,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li class="text"><a href="indexpessoal.php">Página Inicial</a></li>
 						<li class="text"><a href="perfilpessoal.php">'.$_SESSION["nome"].'</a></li>
 						<li class="text"><a href="areadedenuncia.php">Denuncia</a></li>
-						<li class="text"><a href="suportepessoal.php">Suporte</a></li>
+						<!-- <li class="text"><a href="suportepessoal.php">Suporte</a></li> -->
 						<li class="text"><a href="logout.php">Sair</a></li>
 						
 					</ul>
@@ -199,15 +180,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<div vw class="enabled">
-	<div vw-access-button class="active"></div>
-	<div vw-plugin-wrapper>
-	  <div class="vw-plugin-top-wrapper"></div>
-	</div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-	new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+		  <div class="vw-plugin-top-wrapper"></div>
+		</div>
+	  </div>
+	  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	  <script>
+		new window.VLibras.Widget(https://vlibras.gov.br/app);
+	  </script>
 </body>	
 </html>';
 ?>
